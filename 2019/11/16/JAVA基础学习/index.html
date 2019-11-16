@@ -55,31 +55,44 @@
   };
 </script>
 
-  <meta name="description" content="每天写一点">
-<meta property="og:type" content="website">
-<meta property="og:title" content="好好学习，天天向上！">
-<meta property="og:url" content="https://github.com/hage1527/index.html">
+  <meta name="description" content="typora-root-url: images java面试java基础集合有哪些Collection  collection是集合的根接口，其下有两个继承子类List和Set集合 List集合 特点：有序，元素可重复     底层结构 特点 线程安全    ArrayList 数组 查找快，增删慢 不安全   LinkedList 双向循环链表 查找慢，增删快 不安全   Vector 数组 查">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JAVA基础学习">
+<meta property="og:url" content="https://github.com/hage1527/2019/11/16/JAVA基础学习/index.html">
 <meta property="og:site_name" content="好好学习，天天向上！">
-<meta property="og:description" content="每天写一点">
+<meta property="og:description" content="typora-root-url: images java面试java基础集合有哪些Collection  collection是集合的根接口，其下有两个继承子类List和Set集合 List集合 特点：有序，元素可重复     底层结构 特点 线程安全    ArrayList 数组 查找快，增删慢 不安全   LinkedList 双向循环链表 查找慢，增删快 不安全   Vector 数组 查">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://github.com/hage1527/2019/11/16/JAVA基础学习/images/Collection.png">
+<meta property="og:image" content="https://github.com/hage1527/2019/11/16/JAVA基础学习/images/Map-1573300870078.png">
+<meta property="og:image" content="f:/我的坚果云/images/内存区域.jpg">
+<meta property="og:image" content="f:/我的坚果云/images/标记-清除.jpg">
+<meta property="og:image" content="f:/我的坚果云/images/复制.jpg">
+<meta property="og:image" content="f:/我的坚果云/images/标记-整理.jpg">
+<meta property="og:image" content="f:/我的坚果云/images/image-20191111141320109.png">
+<meta property="og:image" content="https://github.com/hage1527/2019/11/16/JAVA基础学习/images/%E7%B1%BB%E5%8A%A0%E8%BD%BD.jpg">
+<meta property="og:image" content="f:/我的坚果云/images/java内存模型.jpg">
+<meta property="og:image" content="f:/我的坚果云/images/线程之间的通信.jpg">
+<meta property="og:image" content="https://github.com/hage1527/2019/11/16/JAVA基础学习/images/image-20191110163554353-1573375177959.png">
+<meta property="og:updated_time" content="2019-11-16T09:01:10.545Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="好好学习，天天向上！">
-<meta name="twitter:description" content="每天写一点">
-  <link rel="canonical" href="https://github.com/hage1527/">
+<meta name="twitter:title" content="JAVA基础学习">
+<meta name="twitter:description" content="typora-root-url: images java面试java基础集合有哪些Collection  collection是集合的根接口，其下有两个继承子类List和Set集合 List集合 特点：有序，元素可重复     底层结构 特点 线程安全    ArrayList 数组 查找快，增删慢 不安全   LinkedList 双向循环链表 查找慢，增删快 不安全   Vector 数组 查">
+<meta name="twitter:image" content="https://github.com/hage1527/2019/11/16/JAVA基础学习/images/Collection.png">
+  <link rel="canonical" href="https://github.com/hage1527/2019/11/16/JAVA基础学习/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome: true,
-    isPost: false,
+    isHome: false,
+    isPost: true,
     isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>好好学习，天天向上！</title>
+  <title>JAVA基础学习 | 好好学习，天天向上！</title>
   
 
 
@@ -211,12 +224,13 @@
 
           <div id="content" class="content">
             
+
   <div id="posts" class="posts-expand">
-        <article itemscope itemtype="http://schema.org/Article">
+      <article itemscope itemtype="http://schema.org/Article">
   
   
   
-  <div class="post-block home">
+  <div class="post-block post">
     <link itemprop="mainEntityOfPage" href="https://github.com/hage1527/2019/11/16/JAVA基础学习/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -229,9 +243,8 @@
       <meta itemprop="name" content="好好学习，天天向上！">
     </span>
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-            
-            <a href="/2019/11/16/JAVA基础学习/" class="post-title-link" itemprop="url">JAVA基础学习</a>
+        <h1 class="post-title" itemprop="name headline">JAVA基础学习
+
           
         </h1>
 
@@ -255,6 +268,14 @@
           
 
           
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+          
 
         </div>
       </header>
@@ -265,7 +286,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>typora-root-url: images</p>
+        <p>typora-root-url: images</p>
 <h1 id="java面试"><a href="#java面试" class="headerlink" title="java面试"></a>java面试</h1><h2 id="java基础"><a href="#java基础" class="headerlink" title="java基础"></a>java基础</h2><h3 id="集合有哪些"><a href="#集合有哪些" class="headerlink" title="集合有哪些"></a>集合有哪些</h3><p>Collection</p>
 <p><img src="images/Collection.png" alt="集合"></p>
 <p><strong>collection是集合的根接口，其下有两个继承子类List和Set集合</strong></p>
@@ -747,445 +768,43 @@
 </li>
 </ol>
 
-        
-      
     </div>
 
     
     
     
+        
+      
+
       <footer class="post-footer">
-          <div class="post-eof"></div>
-        
-      </footer>
-  </div>
-  
-  
-  
-  </article>
-
-    
-        <article itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block home">
-    <link itemprop="mainEntityOfPage" href="https://github.com/hage1527/2019/09/30/bash的环境配置文件/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="hage">
-      <meta itemprop="description" content="每天写一点">
-      <meta itemprop="image" content="/images/hage.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="好好学习，天天向上！">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-            
-            <a href="/2019/09/30/bash的环境配置文件/" class="post-title-link" itemprop="url">bash的环境配置文件</a>
-          
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              
-                
-              
-
-              <time title="创建时间：2019-09-30 08:44:04 / 修改时间：09:11:02" itemprop="dateCreated datePublished" datetime="2019-09-30T08:44:04+08:00">2019-09-30</time>
-            </span>
-          
-            
-
-            
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/linux/" itemprop="url" rel="index"><span itemprop="name">linux</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="bash环境配置"><a href="#bash环境配置" class="headerlink" title="bash环境配置"></a>bash环境配置</h2><h3 id="login-shell"><a href="#login-shell" class="headerlink" title="login shell"></a>login shell</h3><p><strong>取得bash需要完整用户登录流程时的配置文件读取</strong></p>
-<hr>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">graph TD</span><br><span class="line">A[登录] --&gt;|整体环境配置文件,针对所有用户| B(模块B)</span><br><span class="line">B[/etc/profile] --&gt;|针对单个用户配置文件| C(模块c)</span><br><span class="line">B[/etc/profile] --&gt;|用户主目录下的隐藏文件| C(模块c)</span><br><span class="line">C[ 波浪线/.bash_profile] --&gt;| 若不存在|D</span><br><span class="line">C[ 波浪线/.bash_profile] --&gt;| 若存在|F</span><br><span class="line">F[ 波浪线/.bashrc] </span><br><span class="line">D[ 波浪线/.bash_login] --&gt;| 若不存在|E</span><br><span class="line">E[ 波浪线/.profile]</span><br></pre></td></tr></table></figure>
-
-<h3 id="non-log-shell"><a href="#non-log-shell" class="headerlink" title="non-log shell"></a>non-log shell</h3><p><strong>取得bash不需要完整的用户登录流程,如图形化接口启动终端<br>该bash配置文件仅会读取<del>/.bashrc而已。在Red Hat系统中（centos），</del>/.bashrc会主动的调用/etc/bashrc</strong></p>
-<p>···flow<br>st=&gt;start: 开始<br>e=&gt;end: 结束<br>op=&gt;operation: 我的操作<br>cond=&gt;condition: 确认？</p>
-<p>st-&gt;op-&gt;cond<br>cond(yes)-&gt;e<br>cond(no)-&gt;op<br>···</p>
 
         
-      
-    </div>
 
-    
-    
-    
-      <footer class="post-footer">
-          <div class="post-eof"></div>
-        
-      </footer>
-  </div>
-  
-  
-  
-  </article>
-
-    
-        <article itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block home">
-    <link itemprop="mainEntityOfPage" href="https://github.com/hage1527/2019/09/28/日记/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="hage">
-      <meta itemprop="description" content="每天写一点">
-      <meta itemprop="image" content="/images/hage.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="好好学习，天天向上！">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-            
-            <a href="/2019/09/28/日记/" class="post-title-link" itemprop="url">日记</a>
-          
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
               
-                
+                <a href="/2019/09/30/bash的环境配置文件/" rel="next" title="bash的环境配置文件">
+                  <i class="fa fa-chevron-left"></i> bash的环境配置文件
+                </a>
               
-
-              <time title="创建时间：2019-09-28 16:43:27 / 修改时间：16:49:05" itemprop="dateCreated datePublished" datetime="2019-09-28T16:43:27+08:00">2019-09-28</time>
-            </span>
-          
-            
-
-            
-          
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>###早上好啊</p>
-<p>####今天天气挺好的<br>上山打老虎，老虎不在家</p>
-
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-          <div class="post-eof"></div>
-        
-      </footer>
-  </div>
-  
-  
-  
-  </article>
-
-    
-        <article itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block home">
-    <link itemprop="mainEntityOfPage" href="https://github.com/hage1527/2019/09/28/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="hage">
-      <meta itemprop="description" content="每天写一点">
-      <meta itemprop="image" content="/images/hage.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="好好学习，天天向上！">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-            
-            <a href="/2019/09/28/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-          
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              
-                
-              
-
-              <time title="创建时间：2019-09-28 16:34:19 / 修改时间：20:04:42" itemprop="dateCreated datePublished" datetime="2019-09-28T16:34:19+08:00">2019-09-28</time>
-            </span>
-          
-            
-
-            
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/web前端/" itemprop="url" rel="index"><span itemprop="name">web前端</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-          <!--noindex-->
-          
-            <div class="post-button">
-              <a class="btn" href="/2019/09/28/hello-world/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
             </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
 
-    
-    
-    
-      <footer class="post-footer">
-          <div class="post-eof"></div>
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+              
+            </div>
+          </div>
         
       </footer>
+    
   </div>
   
   
   
   </article>
 
-    
-        <article itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block home">
-    <link itemprop="mainEntityOfPage" href="https://github.com/hage1527/2019/09/28/mysql/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="hage">
-      <meta itemprop="description" content="每天写一点">
-      <meta itemprop="image" content="/images/hage.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="好好学习，天天向上！">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-            
-            <a href="/2019/09/28/mysql/" class="post-title-link" itemprop="url">mysql</a>
-          
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              
-                
-              
-
-              <time title="创建时间：2019-09-28 14:09:40 / 修改时间：14:12:50" itemprop="dateCreated datePublished" datetime="2019-09-28T14:09:40+08:00">2019-09-28</time>
-            </span>
-          
-            
-
-            
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/mysql/" itemprop="url" rel="index"><span itemprop="name">mysql</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sfiejefja</span><br><span class="line">wfijjwfi</span><br><span class="line">fwjijf</span><br></pre></td></tr></table></figure>
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-          <div class="post-eof"></div>
-        
-      </footer>
   </div>
-  
-  
-  
-  </article>
-
-    
-        <article itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block home">
-    <link itemprop="mainEntityOfPage" href="https://github.com/hage1527/2019/09/28/hage/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="hage">
-      <meta itemprop="description" content="每天写一点">
-      <meta itemprop="image" content="/images/hage.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="好好学习，天天向上！">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-            
-            <a href="/2019/09/28/hage/" class="post-title-link" itemprop="url">hage</a>
-          
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              
-                
-              
-
-              <time title="创建时间：2019-09-28 11:32:09 / 修改时间：21:21:34" itemprop="dateCreated datePublished" datetime="2019-09-28T11:32:09+08:00">2019-09-28</time>
-            </span>
-          
-            
-
-            
-          
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-          <div class="post-eof"></div>
-        
-      </footer>
-  </div>
-  
-  
-  
-  </article>
-
-    
-  </div>
-
-  
 
 
           </div>
@@ -1204,6 +823,11 @@
 
   <aside class="sidebar">
     <div class="sidebar-inner">
+        
+        
+        
+        
+      
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
@@ -1216,6 +840,8 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#java面试"><span class="nav-number">1.</span> <span class="nav-text">java面试</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#java基础"><span class="nav-number">1.1.</span> <span class="nav-text">java基础</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#集合有哪些"><span class="nav-number">1.1.1.</span> <span class="nav-text">集合有哪些</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#String-StringBuilder-StringBuffer的区别"><span class="nav-number">1.1.2.</span> <span class="nav-text">String,StringBuilder,StringBuffer的区别</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实现多态的方式？"><span class="nav-number">1.1.3.</span> <span class="nav-text">实现多态的方式？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#重载（Overload）和重写（Override）的区别？"><span class="nav-number">1.1.4.</span> <span class="nav-text">重载（Overload）和重写（Override）的区别？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#深拷贝和浅拷贝的区别"><span class="nav-number">1.1.5.</span> <span class="nav-text">深拷贝和浅拷贝的区别</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#NIO和BIO"><span class="nav-number">1.1.6.</span> <span class="nav-text">NIO和BIO</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#反射"><span class="nav-number">1.1.7.</span> <span class="nav-text">反射</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#注解"><span class="nav-number">1.1.8.</span> <span class="nav-text">注解</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JVM"><span class="nav-number">1.2.</span> <span class="nav-text">JVM</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#内存区域"><span class="nav-number">1.2.1.</span> <span class="nav-text">内存区域</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#垃圾回收"><span class="nav-number">1.2.2.</span> <span class="nav-text">垃圾回收</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#对象存活性判断"><span class="nav-number">1.2.2.1.</span> <span class="nav-text">对象存活性判断</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#无用的类"><span class="nav-number">1.2.2.2.</span> <span class="nav-text">无用的类</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#垃圾收集算法"><span class="nav-number">1.2.2.3.</span> <span class="nav-text">垃圾收集算法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HotSpot算法实现"><span class="nav-number">1.2.2.4.</span> <span class="nav-text">HotSpot算法实现</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#java当中的四种引用"><span class="nav-number">1.2.3.</span> <span class="nav-text">java当中的四种引用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#类加载机制"><span class="nav-number">1.2.4.</span> <span class="nav-text">类加载机制</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#类加载的时机："><span class="nav-number">1.2.4.1.</span> <span class="nav-text">类加载的时机：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#类加载器"><span class="nav-number">1.2.4.2.</span> <span class="nav-text">类加载器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#自定义类加载器"><span class="nav-number">1.2.4.3.</span> <span class="nav-text">自定义类加载器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#类加载的过程："><span class="nav-number">1.2.4.4.</span> <span class="nav-text">类加载的过程：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#虚拟机性能监控工具"><span class="nav-number">1.2.5.</span> <span class="nav-text">虚拟机性能监控工具</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#jps-虚拟机进程状况工具"><span class="nav-number">1.2.5.1.</span> <span class="nav-text">jps:虚拟机进程状况工具</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#jstat-虚拟机统计信息监视工具"><span class="nav-number">1.2.5.2.</span> <span class="nav-text">jstat:虚拟机统计信息监视工具</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#jinfo-Java配置信息工具"><span class="nav-number">1.2.5.3.</span> <span class="nav-text">jinfo:Java配置信息工具</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#jmap-java内存映像工具"><span class="nav-number">1.2.5.4.</span> <span class="nav-text">jmap: java内存映像工具</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#jhat-虚拟机堆转存快照分析工具"><span class="nav-number">1.2.5.5.</span> <span class="nav-text">jhat: 虚拟机堆转存快照分析工具</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#并发"><span class="nav-number">1.3.</span> <span class="nav-text">并发</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#内存模型"><span class="nav-number">1.3.1.</span> <span class="nav-text">内存模型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#线程"><span class="nav-number">1.3.2.</span> <span class="nav-text">线程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#锁"><span class="nav-number">1.3.3.</span> <span class="nav-text">锁</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#synchronized"><span class="nav-number">1.3.3.1.</span> <span class="nav-text">synchronized</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#volatile"><span class="nav-number">1.3.3.2.</span> <span class="nav-text">volatile</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#锁的优化（分类）"><span class="nav-number">1.3.3.3.</span> <span class="nav-text">锁的优化（分类）</span></a></li></ol></li></ol></li></ol></li></ol></div>
+        
       </div>
       <!--/noindex-->
 

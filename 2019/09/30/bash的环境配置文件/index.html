@@ -63,7 +63,7 @@
 <meta property="og:site_name" content="好好学习，天天向上！">
 <meta property="og:description" content="bash环境配置login shell取得bash需要完整用户登录流程时的配置文件读取  123456789graph TDA[登录] --&amp;gt;|整体环境配置文件,针对所有用户| B(模块B)B[/etc/profile] --&amp;gt;|针对单个用户配置文件| C(模块c)B[/etc/profile] --&amp;gt;|用户主目录下的隐藏文件| C(模块c)C[ 波浪线/.bash_profil">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-09-30T00:46:05.238Z">
+<meta property="og:updated_time" content="2019-09-30T01:11:02.386Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="bash的环境配置文件">
 <meta name="twitter:description" content="bash环境配置login shell取得bash需要完整用户登录流程时的配置文件读取  123456789graph TDA[登录] --&amp;gt;|整体环境配置文件,针对所有用户| B(模块B)B[/etc/profile] --&amp;gt;|针对单个用户配置文件| C(模块c)B[/etc/profile] --&amp;gt;|用户主目录下的隐藏文件| C(模块c)C[ 波浪线/.bash_profil">
@@ -248,7 +248,7 @@
                 
               
 
-              <time title="创建时间：2019-09-30 08:44:04 / 修改时间：08:46:05" itemprop="dateCreated datePublished" datetime="2019-09-30T08:44:04+08:00">2019-09-30</time>
+              <time title="创建时间：2019-09-30 08:44:04 / 修改时间：09:11:02" itemprop="dateCreated datePublished" datetime="2019-09-30T08:44:04+08:00">2019-09-30</time>
             </span>
           
             
@@ -293,6 +293,8 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">graph TD</span><br><span class="line">A[登录] --&gt;|整体环境配置文件,针对所有用户| B(模块B)</span><br><span class="line">B[/etc/profile] --&gt;|针对单个用户配置文件| C(模块c)</span><br><span class="line">B[/etc/profile] --&gt;|用户主目录下的隐藏文件| C(模块c)</span><br><span class="line">C[ 波浪线/.bash_profile] --&gt;| 若不存在|D</span><br><span class="line">C[ 波浪线/.bash_profile] --&gt;| 若存在|F</span><br><span class="line">F[ 波浪线/.bashrc] </span><br><span class="line">D[ 波浪线/.bash_login] --&gt;| 若不存在|E</span><br><span class="line">E[ 波浪线/.profile]</span><br></pre></td></tr></table></figure>
 
 <h3 id="non-log-shell"><a href="#non-log-shell" class="headerlink" title="non-log shell"></a>non-log shell</h3><p><strong>取得bash不需要完整的用户登录流程,如图形化接口启动终端<br>该bash配置文件仅会读取<del>/.bashrc而已。在Red Hat系统中（centos），</del>/.bashrc会主动的调用/etc/bashrc</strong></p>
+<p>···flow<br>st=&gt;start: 开始<br>e=&gt;end: 结束<br>op=&gt;operation: 我的操作<br>cond=&gt;condition: 确认？</p>
+<p>st-&gt;op-&gt;cond<br>cond(yes)-&gt;e<br>cond(no)-&gt;op<br>···</p>
 
     </div>
 
@@ -327,6 +329,10 @@
             <span class="post-nav-divider"></span>
 
             <div class="post-nav-prev post-nav-item">
+              
+                <a href="/2019/11/16/JAVA基础学习/" rel="prev" title="JAVA基础学习">
+                  JAVA基础学习 <i class="fa fa-chevron-right"></i>
+                </a>
               
             </div>
           </div>
@@ -393,7 +399,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
